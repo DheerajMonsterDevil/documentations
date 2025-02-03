@@ -10,10 +10,6 @@ You can check if ngc is installed by running the below command,
 
 From here, you can follow the given [NVIDIA's documentation](https://docs.nvidia.com/nim/large-language-models/latest/getting-started.html) on setting up a NIM service or you can continue following this to setup quickly.   
 
-<!-- Once ngc is setup, you will need to login into nvcr.io hub using docker to get all repos of NVIDIA that supports your machines. You can login using below command,  
-
-    docker login nvcr.io -->
-
 You can find the list of all NIMs that support your machine using the command,  
 
     ngc registry image list --format_type csv nvcr.io/nim/*
