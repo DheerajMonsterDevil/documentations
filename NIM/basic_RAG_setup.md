@@ -8,7 +8,7 @@ Once you have ngc in your machine and you need to login into nvcr.io using docke
 
 You will enter username as <mark>$oauthtoken</mark> with password as your <mark>NGC_API_KEY</mark>.
 
-After logging into it successfully, make sure to set environment variables permanently so that would be applicable to all users in the machine. You can do that by opening the .bashsrc file and add the following commands at the end and save the file.  
+After logging into it successfully, make sure to set environment variables permanently so that would be applicable to all users in the machine. You can do that by opening the .bashrc file and add the following commands at the end and save the file.  
 
     export NGC_API_KEY=<NGC_API_KEY>
     export LOCAL_NIM_CACHE=~/.cache/nim
